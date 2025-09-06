@@ -1,7 +1,7 @@
 #  WhatsApp Business Engine  
 *A Serverless AI Assistant for Product Tracking & Business Workflows*  
 
-![Architecture](docs/Architectural%20Diagram.jpg)  
+![Architecture](docs/architectural%20Diagram.jpg)  
 
 ---
 
@@ -74,6 +74,13 @@ Twilio → API Gateway (Okta JWT) → Ingress Lambda → SQS → Worker Lambda �
 
 ---
 
+## Live Demos  
+
+### WhatsApp End-to-End Demo  
+[![Watch Live Demo](docs/Live%20Video%20Whatsapp%20demo.mp4)]  
+
+---
+
 ##  WhatsApp Experience  
 
 ###  Conversation with AI (Summary Generated)  
@@ -82,7 +89,7 @@ Twilio → API Gateway (Okta JWT) → Ingress Lambda → SQS → Worker Lambda �
 ---
 
 ### DynamoDB Session Store (Chat Memory Proof)  
-[![Watch DynamoDB Demo](docs/Tinyllama_model_finetuning.png)](docs/DynamoDB_SessionStore.mp4)  
+[![Watch DynamoDB Demo](docs/DynamoDB_SessionStore.mp4)] 
 
 ---
 
