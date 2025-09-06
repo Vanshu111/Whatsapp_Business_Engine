@@ -1,0 +1,9 @@
+boto3
+requests
+pydantic
+PyJWT
+faiss-cpu
+word2number
+transformers
+datasets
+accelerate

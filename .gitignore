@@ -77,6 +77,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.nbconvert.ipynb
 
 # IPython
 profile_default/
@@ -205,3 +206,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# IDE
+.vscode/
+.idea/
+
+# AWS / configs
+*.pem
+*.key
+*.secrets
+*.tfstate
+*.tfstate.backup
+# ML Outputs
+results/
+checkpoints/
+runs/
+*.ckpt
+*.pt
+*.bin
