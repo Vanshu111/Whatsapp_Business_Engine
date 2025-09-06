@@ -50,41 +50,42 @@ So managers at any level can simply **ask the chatbot on WhatsApp**, and it:
 - Structured logging + CloudWatch metrics  
 
 ---
-
+'''
 ##  Repository Structure  
-
-whatsapp-business-engine/
-│── README.md
-│── LICENSE
-│── .gitignore
-│── requirements.txt
-│── .env.example
-│── notebooks/
-│   └── chatbot_experiments.ipynb        #tinyllama-cutomizable
-│ 
-│── docs/
+Whatsapp_Business_Engine/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+├── .env.example
+│
+├── notebooks/
+│   └── chatbot_experiments.ipynb   # tinyllama-customizable
+│
+├── docs/
 │   ├── architecture.png
 │   ├── dynamodb_session_screenshot.png
 │   └── sequence-diagram.mmd
-│── src/
-│   ├── app_config.py
-│   ├── auth_okta.py
-│   ├── secrets.py
-│   ├── logging_utils.py
-│   ├── models.py
-│   ├── twilio_webhook_ingress.py        # Lambda 1 (sync -> SQS)
-│   ├── worker_handler.py                # Lambda 2 (SQS -> process)
-│   ├── providers/
-│   │   ├── bedrock_client.py
-│   │   ├── gemini_client.py
-│   │   └── llm_router.py
-│   ├── services/
-│   │   ├── session_store.py             # DynamoDB
-│   │   ├── rag_service.py               # Vector DB abstraction
-│   │   ├── message_bus.py               # SQS/SNS helpers
-│   │   └── reply_logic.py               # slot filling, prompts, summarization
-
-
+│
+└── src/
+    ├── app_config.py
+    ├── auth_okta.py
+    ├── secrets.py
+    ├── logging_utils.py
+    ├── models.py
+    ├── twilio_webhook_ingress.py   # Lambda 1 (sync → SQS)
+    ├── worker_handler.py           # Lambda 2 (SQS → process)
+    │
+    ├── providers/
+    │   ├── bedrock_client.py
+    │   ├── gemini_client.py
+    │   └── llm_router.py
+    │
+    └── services/
+        ├── session_store.py        # DynamoDB
+        ├── rag_service.py          # Vector DB abstraction
+        ├── message_bus.py          # SQS / SNS helpers
+        └── reply_logic.py          # slot-filling, prompts, summarization
 
 ---
 
