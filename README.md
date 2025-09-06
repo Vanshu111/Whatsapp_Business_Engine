@@ -81,11 +81,6 @@ Twilio → API Gateway (Okta JWT) → Ingress Lambda → SQS → Worker Lambda �
 
 ---
 
-## Live Demos  
-
-### WhatsApp End-to-End Demo  
-[![Watch Live Demo](docs/Converse_Summary.jpeg)](docs/Live%20Video%20Whatsapp%20demo.mp4)  
-
 ### DynamoDB Session Store (Chat Memory Proof)  
 [![Watch DynamoDB Demo](docs/Tinyllama_model_finetuning.png)](docs/DynamoDB_SessionStore.mp4)  
 
