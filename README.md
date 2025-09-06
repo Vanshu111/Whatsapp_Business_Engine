@@ -50,7 +50,7 @@ So managers at any level can simply **ask the chatbot on WhatsApp**, and it:
 - Structured logging + CloudWatch metrics  
 
 ---
-'''
+```
 ##  Repository Structure  
 Whatsapp_Business_Engine/
 ├── README.md
@@ -86,7 +86,7 @@ Whatsapp_Business_Engine/
         ├── rag_service.py          # Vector DB abstraction
         ├── message_bus.py          # SQS / SNS helpers
         └── reply_logic.py          # slot-filling, prompts, summarization
-
+```
 ---
 
 ##  System Flow  
