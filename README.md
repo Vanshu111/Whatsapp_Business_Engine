@@ -105,7 +105,7 @@ Twilio → API Gateway (Okta JWT) → Ingress Lambda → SQS → Worker Lambda �
 ## Live Demos  
 
 ### WhatsApp End-to-End Demo  
-[![Watch Live Demo](docs/Live%20Video%20Whatsapp%20demo.mp4)]  
+- [ Whatsapp Live Demo Video (Google Drive)](https://drive.google.com/drive/folders/1uGpyad1Xu6BLCjY-IPHLErMZMrfsKasI?usp=sharing)
 
 ---
 
@@ -117,7 +117,7 @@ Twilio → API Gateway (Okta JWT) → Ingress Lambda → SQS → Worker Lambda �
 ---
 
 ### DynamoDB Session Store (Chat Memory Proof)  
-[![Watch DynamoDB Demo](docs/DynamoDB_SessionStore.mp4)] 
+- [ DynamoDB Session Store Walkthrough (Google Drive)](https://drive.google.com/drive/folders/1uGpyad1Xu6BLCjY-IPHLErMZMrfsKasI?usp=sharing)
 
 ---
 
