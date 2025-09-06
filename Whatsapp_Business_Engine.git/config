@@ -6,6 +6,7 @@
 	precomposeunicode = true
 [remote "origin"]
 	url = https://github.com/Vanshu111/Whatsapp_Business_Engine.git
-	tagOpt = --no-tags
-	fetch = +refs/*:refs/*
-	mirror = true
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
